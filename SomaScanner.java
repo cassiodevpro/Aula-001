@@ -10,10 +10,10 @@ public class SomaScanner {
             System.out.print("Digite o Segundo numero: ");
             int b = sc.nextInt();
             
-            int c = a + b;
+            int soma = a + b;
             
             
-            System.out.println("Olá, a soma de " + a + " + " + b + " é igual a: " + c );
+            System.out.println("Olá, a soma de " + a + " + " + b + " é igual a: " + soma );
             
             sc.close();
             
